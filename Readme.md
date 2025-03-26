@@ -373,7 +373,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
  - We will create an select address page where we will display all the address and ask to select delivery address.
  - We will write mongoose schema for storing orders details.
 
-### Milestone 22 : Confirmation page
+### Milestone 24 : Confirmation page
 
  - We will create an order confirmation page.
 ---
