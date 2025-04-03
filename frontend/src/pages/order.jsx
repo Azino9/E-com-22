@@ -5,6 +5,7 @@ import server from '../server';
 const OrderConfirmation = () => {
     const location = useLocation();
     const navigate = useNavigate();
+
     const { addressId, userEmail } = location.state || {};
     
     const [confirmOrder, setConfirmOrder] = useState(false);
@@ -57,6 +58,12 @@ const OrderConfirmation = () => {
             </div>
         </div>
     );
+=======
+    const { addressId, userEmail } = location.state ;
+console.log(addressId)
+console.log(userEmail)
+return(<>order conformation</>)
+
 };
 
 export default OrderConfirmation;
