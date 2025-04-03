@@ -12,9 +12,10 @@ const SelectAddress = () => {
     const [error, setError] = useState(null);
     const navigate = useNavigate();
 
-  const location=      useLocation()
+  const location=useLocation()
+  const {products}=location.state||{}
+  console.log(products)
   console.log(location.state)
-
 
     const userEmail = 'sankamithra1614@gmail.com'; 
 
@@ -44,7 +45,7 @@ console.log("taking address from data", data.data.addresses )
         //navigate('/order-confirmation', { state: { addressId, userEmail:'sankamithra1614@gmail.com' } });
         const handleSelectAddress = (addressId) => {
             console.log("Navigating with:", addressId, userEmail);
-            navigate('/order-confirmation', { state: { addressId, userEmail } });
+            navigate('/order-confirmation', { state: { addressId, userEmail,products } });
         };
         
         //navigate('/order-confirmation', { state: { addressId, userEmail} });
