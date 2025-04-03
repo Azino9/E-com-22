@@ -383,7 +383,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 
  - Create an backend endpoint that will help in placing the order. 
 
-### Milestone 25 : Backend endpoint For User Orders
+### Milestone 26 : Backend endpoint For User Orders
 
  - Create an backend endpoint that will help getting all the orders of the user.
 
@@ -391,5 +391,15 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
   -  You need to create an endpoint that will receive the user mail
   - You will get the mail of the user using that you need to retrive the _id of the user
   - Using that _id you need to get all the orders of that user
+
+### Milestone 27 : Frontend Page to display Orders
+
+ - Create an frontend page that will display all the user orders.
+ - Steps : -
+  - You need to create an my-orders page
+  - You will send an get request to my-orders endpoint that we created in previous milestone.
+  - We will send user mail in to endpoint to get all the user orders
+  - Display all the user orders
+  - We will add my-orders page in navbar for better navigation.
 ---
 
