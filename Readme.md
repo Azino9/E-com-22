@@ -376,5 +376,20 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 ### Milestone 24 : Confirmation page
 
  - We will create an order confirmation page.
+
+
+
+### Milestone 25 : Backend endpoint
+
+ - Create an backend endpoint that will help in placing the order. 
+
+### Milestone 25 : Backend endpoint For User Orders
+
+ - Create an backend endpoint that will help getting all the orders of the user.
+
+ - Steps : -
+  -  You need to create an endpoint that will receive the user mail
+  - You will get the mail of the user using that you need to retrive the _id of the user
+  - Using that _id you need to get all the orders of that user
 ---
 
