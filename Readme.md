@@ -220,5 +220,26 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
   - We will send user mail in to endpoint to get all the user orders
   - Display all the user orders
   - We will add my-orders page in navbar for better navigation.
+
+### Milestone 28 :- Cancel products
+ - The use will be able to cancel the placed orders.
+  
+   - In my-orders page for every order add cancel order button
+   - If the order is already canceled this button should not be displayed
+   - You need to create an endpoint that will receive the order-id
+   - Get the order using this id and mark the status canceled and save
+
+### Milstone 29 :- PayPl API
+
+ - Learn how to use PayPal API.
+ - Learn how to Integrate online payments.
+
+  - Please create an PayPal account first PayPal developer dashboard
+  - Once you login you can see an option for an sandbox accounts.
+  - Copy the UserID of that account and save it.
+  - In this sandbox accounts you can find your client id copy and save it.
+  - In your order conformation page you need two options for payment one is COD and another is online payment.
+  - Create radio buttons to select COD or online payment and when we click on online payment PayPal buttons need to be displayed.
+  - In next milestone we will write an code to display and use those PayPal online Payments buttons.
 ---
 
