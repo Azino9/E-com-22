@@ -1,16 +1,22 @@
 // SelectAddress.jsx
 import React, { useState, useEffect } from 'react';
 import Nav from '../components/nav'; // Ensure the path is correct and component name matches
+
 import { useLoaderData, useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 import axios from 'axios'
 const SelectAddress = () => {
     const [addresses, setAddresses] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const navigate = useNavigate();
-  const location=      useLocation()
+
+  const location=useLocation()
   const {products}=location.state||{}
   console.log(products)
+  console.log(location.state)
+
     const userEmail = 'sankamithra1614@gmail.com'; 
 
     useEffect(() => {

@@ -5,9 +5,11 @@ import server from '../server';
 const OrderConfirmation = () => {
     const location = useLocation();
     const navigate = useNavigate();
+
     let totalPrice=0
     const { addressId, userEmail,products } = location.state || {};
     console.log(addressId,userEmail,products)
+
     const [productIds, setProductIds] = useState([]);
     const [quantity,setQuantity]= useState([])
     useEffect(() => {
@@ -18,6 +20,8 @@ const OrderConfirmation = () => {
     }, []);
     
     console.log(productIds,quantity)
+
+
     const [confirmOrder, setConfirmOrder] = useState(false);
 products.map(p=>totalPrice+=p.price)
 console.log(totalPrice)
@@ -70,6 +74,12 @@ console.log(totalPrice)
             </div>
         </div>
     );
+
+    const { addressId, userEmail } = location.state ;
+console.log(addressId)
+console.log(userEmail)
+return(<>order conformation</>)
+
 };
 
 export default OrderConfirmation;
