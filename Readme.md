@@ -21,7 +21,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 
 ## Project Milestones  
 
-### Milestone 1: Project Overview
+### Milestone 1: Project Overview :-
 
 - Understood the MERN project structure and key functionalities.  
 - Explored core e-commerce features:  
@@ -31,7 +31,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 - Discussed REST API structure and MongoDB schema design.  
 - Set up the GitHub repository and planned the project workflow.  
 
-### Milestone 2: Frontend & Backend Setup
+### Milestone 2: Frontend & Backend Setup :-
 
 - Organized frontend and backend into separate directories.  
 - **Frontend**:  
@@ -42,14 +42,14 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
   - Connected the backend to MongoDB.  
 - The first user-facing feature (Login Page) is complete.  
 
-### Milestone 3: Backend Development & Database Connection
+### Milestone 3: Backend Development & Database Connection :-
 
 - Implemented a structured backend with routes, controllers, models, and middleware.  
 - Configured the Node.js server to handle API requests.  
 - Connected MongoDB for efficient data storage.  
 - Added basic error handling to improve debugging and user experience.  
 
-### Milestone 4: User Management & File Uploads
+### Milestone 4: User Management & File Uploads :-
 
 - Introduced user management in the backend.  
   - Created a user model using MongoDB schemas.  
@@ -57,7 +57,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 - Configured Multer for file uploads, allowing users to upload images.  
 - Updated the project repository with these features and documented them in the README.  
 
-### Milestone 5: Creating the Signup Page
+### Milestone 5: Creating the Signup Page :-
 
 - Built the signup page where users can register with:  
   - Full name  
@@ -69,7 +69,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
   - Matching password confirmation  
 - **Next Steps**: Connecting frontend with backend for authentication.  
 
-### Milestone 6: Connecting Frontend with Backend & User Sessions
+### Milestone 6: Connecting Frontend with Backend & User Sessions :-
 
 - Integrated signup and login pages with backend APIs using Axios.  
 - Implemented JWT-based authentication to securely store and manage user sessions.  
@@ -77,7 +77,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 - Created protected routes to restrict unauthorized access.  
 - Implemented role-based access control (e.g., Admin vs. Regular Users).  
 
-### Milestone 7: User Login API with Secure Authentication
+### Milestone 7: User Login API with Secure Authentication :-
 
 - Created a login API endpoint (`POST /api/auth/login`).  
 - Retrieved user data from the database based on the provided email.  
@@ -88,20 +88,20 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 - Implemented JWT token generation for secure authentication.  
 - Tested the API using Postman and Thunder Client.  
 
-### Milestone 8: Product Cards and Homepage Layout
+### Milestone 8: Product Cards and Homepage Layout :-
 
 - Designed and built a **reusable product card component** that accepts product details via props.
 - Created a **responsive homepage layout** using Tailwind CSS grid to display multiple cards efficiently across different screen sizes.
 - Used mock product data to dynamically generate product cards.
 
-### Milestone 9: Create Product Form
+### Milestone 9: Create Product Form :-
 
 - Built a frontend **Create Product Form** to take product details as input.
 - Implemented an image upload feature allowing multiple image selection.
 - Ensured the form is responsive and user-friendly using Tailwind CSS.
 - **Next Steps**: Connecting form submissions with backend API.
 
-### Milestone 10: Writing Mongoose Schema & API Endpoint
+### Milestone 10: Writing Mongoose Schema & API Endpoint :-
 
 - Created a **Mongoose schema** for storing product details in MongoDB.
 - Defined fields like name, description, price, images, and category with proper validation.
@@ -109,13 +109,13 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 - Ensured data integrity by implementing validation checks.
 - **Next Steps**: Connecting frontend product form with the backend API.
 
-### Milestone 11: Fetching & Displaying Products 
+### Milestone 11: Fetching & Displaying Products :-
 
 - Added a **GET API endpoint** `/api/products` to retrieve all stored products from MongoDB.
 - Used **Axios** to fetch product data in the frontend.
 - Passed the retrieved data to the **Product Card Component** for dynamic display.
 
-### Milestone 12: Fetching & Displaying User-Specific Products
+### Milestone 12: Fetching & Displaying User-Specific Products :-
 
 - Created an endpoint `/api/products/my-products` to fetch products added by the logged-in user.
 - Used **JWT authentication** to filter products based on the user's email.
@@ -123,86 +123,86 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
 
 
 
-### Milestone 13 :  Writing endpoint for mongoDB for Updating
+### Milestone 13 :  Writing endpoint for mongoDB for Updating :-
 
  - How to write an endpoint that will update the existing   data in MongoDB.
  - how to auto fill the form with previous data and give option to edit.
 
 
-### Milestone 14 : Writing endpoint for mongoDB for deleting
+### Milestone 14 : Writing endpoint for mongoDB for deleting :-
 
  - How to write an endpoint that delete the product with specific ID from MongoDB.
 
 
-### Milestone 15 : Creating nav component
+### Milestone 15 : Creating nav component :-
 
  - How to create and Nav component.
  - How to reuse the same component in multiple pages.
 
-### Milestone 16 : Displaying product and Quantity button
+### Milestone 16 : Displaying product and Quantity button :-
 
  - How to new page to display each product.
  - How to add quantity and add to card button.
 
-### Milestone 17 : Editing User Schemas
+### Milestone 17 : Editing User Schemas :-
 
  - Edit the user schema to store cart products .
  - Write an end point to receive the product details and store in database.
 
 
-### Milestone 18 : Backend Endpoints
+### Milestone 18 : Backend Endpoints :-
 
  - Create an endpoint to receive request from cart page.
  - Create an backend endpoint to fetch all the products inside cart with user mail.
 
-### Milestone 19 : Adding buttons of increase and decrease
+### Milestone 19 : Adding buttons of increase and decrease :-
 
  - Create an cart page that display the products inside cart using endpoint we build in milestone 18.
  - For each product add an option to increase and decrease quantity using + and - buttons.
  - Write an endpoint to increase and decrease the quantity
 
-### Milestone 20 : Profile page
+### Milestone 20 : Profile page :-
 
  - Create and backend endpoint that will send all the user data using mail.
  - Create an frontend profile page that will display all the user data
  - display profile photo, name, mail and addresses.
 
 
-### Milestone 21 : Input Address
+### Milestone 21 : Input Address :-
 
  - Create an frontend form that will will take address.
  - Take country, city, address1, address2, zip code, address type
 
-### Milestone 22 : Backend to store data
+### Milestone 22 : Backend to store data :-
 
  - Create an backend endpoint that will store the address inside user profile in database.
 
-### Milestone 23 : Product schema
+### Milestone 23 : Product schema :-
 
  - We will add an button inside cart called "Place order"
  - We will create an select address page where we will display all the address and ask to select delivery address.
  - We will write mongoose schema for storing orders details.
 
-### Milestone 22 : Confirmation page
+### Milestone 22 : Confirmation page :-
 
  - We will create an order confirmation page.
 
-### Milestone 23 : Product schema
+### Milestone 23 : Product schema :-
 
  - We will add an button inside cart called "Place order"
  - We will create an select address page where we will display all the address and ask to select delivery address.
  - We will write mongoose schema for storing orders details.
 
-### Milestone 24 : Confirmation page
+### Milestone 24 : Confirmation page :-
 
  - We will create an order confirmation page.
 
 
-### Milestone 25 : Backend endpoint
+### Milestone 25 : Backend endpoint :-
 
  - Create an backend endpoint that will help in placing the order. 
 
-### Milestone 26 : Backend endpoint For User Orders
+### Milestone 26 : Backend endpoint For User Orders :-
 
  - Create an backend endpoint that will help getting all the orders of the user.
 
@@ -211,7 +211,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
   - You will get the mail of the user using that you need to retrive the _id of the user
   - Using that _id you need to get all the orders of that user
 
-### Milestone 27 : Frontend Page to display Orders
+### Milestone 27 : Frontend Page to display Orders :-
 
  - Create an frontend page that will display all the user orders.
  - Steps : -
@@ -221,7 +221,8 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
   - Display all the user orders
   - We will add my-orders page in navbar for better navigation.
 
-### Milestone 28 :- Cancel products
+### Milestone 28 :- Cancel products :-
+
  - The use will be able to cancel the placed orders.
   
    - In my-orders page for every order add cancel order button
@@ -229,7 +230,7 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
    - You need to create an endpoint that will receive the order-id
    - Get the order using this id and mark the status canceled and save
 
-### Milstone 29 :- PayPl API
+### Milstone 29 :- PayPal API :-
 
  - Learn how to use PayPal API.
  - Learn how to Integrate online payments.
@@ -241,5 +242,61 @@ This is a mentor-guided project to build a full-fledged **E-commerce application
   - In your order conformation page you need two options for payment one is COD and another is online payment.
   - Create radio buttons to select COD or online payment and when we click on online payment PayPal buttons need to be displayed.
   - In next milestone we will write an code to display and use those PayPal online Payments buttons.
----
 
+
+### Milestone 30:-  PayPal Account :-
+
+ - Learn how to use PayPal API.
+ - Learn how to Integrate online payments.
+ - After creating PayPal account and getting the UserID inside sandbox account.
+ - Implement online payment using PayPal API using the client key you created earlier.
+ - Download NPM package called react-paypal-js that will provide an component called PayPalScriptProvider which will display online payment methods like credit or debit card etc..,
+
+
+### Milestone 31:- Redux management :-
+
+ - How to use redux for global state management
+ - Implement redux store to store all global states
+ - Install an npm package called react-redux
+ - create an new folder called store with two files store.js and userActions.js.
+ - We will store user mail inside global state.
+ - In store.js file configure an store with userReducer function that will handle global user email state.
+ - Inside userActions.js file write an function called setEmail that will help in storing email state inside global state.
+ - In Index.js file make sure to wrap APP component inside provider component with store as props.
+
+
+### Milestone 32:- Redux - store & Action :-
+
+ - The use will be use redux to store the state and access in all the pages.
+ - In Login page we will use Dispatch method to store the mail inside global state
+ - In all the remaining pages acc the mail stored in global state using useSelector
+
+### Milestone 33:- JWT (JSON web token) :-
+
+ - Learn how to create an JWT token.
+ - How to store the tokens inside the cookie.
+ - Download jsonwebtoken package using NPM
+ - Use sign method to create an JWT token with mail and ID
+ - Give maxAge to set expire time
+ - Add the cookie inside the response that helps you to store the cookie inside browser.
+
+### Milestone 34:- Setting JWT for Cookie's :-
+
+ - Learn how to extract the JWT token from the cookie and send it to the server.
+ - How to validate the JWT token received from the client.
+ - Get the token from the browser cookie and send it to the server
+ - In backend write an middleware function to validate that JWT token
+ - In every page make sure that this steps will happen so that user cannot go to that page with out login
+
+
+### Milestone 35:-
+
+ - Learn how to deploy your frontend.
+ - How to deploy your backend.
+ - Deploy your backend in any of the deployment service and get the backend deployment link.
+ - replace the localhost in frontend with the backend deployment lint.
+ - Deploy the frontend in any of the deployment service
+ - Make sure that both frontend and backend were correctly deployed and working properly.
+ - Deployment Link :- https://heartfelt-taffy-22481c.netlify.app/
+
+---
